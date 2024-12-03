@@ -20,4 +20,4 @@ jobs:
     - name: Linter
       run: clang-tidy Text2table.cpp
     - name: Linter (alt)
-      run: amcp-pit/cpp-linter@v1
+      uses: amcp-pit/cpp-linter@v1
